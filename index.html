@@ -20,23 +20,26 @@
     
 
 <body>
-  <div class="nav-bar">
-  </div>
+  <!-- ------------------NAV------------ -->
   <nav>
-            <ul>
-              <li><a href="#home" title="Click to go to home page">home</a></li>
-              <li><a href="#rap" title="Click to listen to my music">rap</a></li>
-              <li><a href="#curation" title="Learn more about my curation">curation</a></li>
-              <li><a href="#tarot"title="Book a reading">tarot</a></li>
-              <li class="empty"><a href="#home"></a></li>
-              <li><a href="#education" title="Learn more about my education efforts">education</a></li>
-              <li><a href="#about" title="Learn more about Jasmine">about</a></li>
-              <li><a href="#contacts" title="Let's Connect!">contact</a></li>
-              <li><a href="#shop" title="Shop with me!">shop</a></li>
-              
-            </ul>
-          </nav>
-  <header>    
+   <!--  <img class="ase" style="width: 20px;" src="img/ase-no-bg.png"> -->
+    <div class="nav-bar dropbtn" onclick="myFunction()">
+    <i class="fa fa-caret-down"></i>
+  </div>
+  <div class="dropdown-content" id="myDropdown">
+    <a href="#home" title="Click to go to the home page">home</a>
+     <a href="#rap" title="Click to listen to my music">rap</a>
+    <a href="#curation" title="Learn more about my curation">curation</a>
+     <a href="#tarot"title="Book a reading">tarot</a>
+     <a href="#education" title="Learn more about my education efforts">education</a>
+     <a href="#about" title="Learn more about Jasmine">about</a>
+      <a href="#contacts" title="Let's Connect!">contact</a>
+      <!--  <a href="#shop" title="Shop with me!">shop</a> -->
+  </div>
+  </nav>
+
+<!-- -----------HEADER------------- -->
+  <header id="home">    
     <video autoplay muted loop id="myVideo">
   <source src="img/video-test.mp4" type="video/mp4">
 </video>
@@ -44,57 +47,73 @@
   <h1>welcome</h1>
   </header>
 
-  <div class="">
-            <img class="ase" style="width: 75px;" src="img/ase.jpg">
-            
-          </div>
+  
 
-  <div class="curation container">
+<!-- --------------CURATION-------------- -->
+  <div class="curation container" id="curation">
     <h1>Curation</h1>
     <div>
       <p style="margin-bottom: 0px;">Nam fuga. Et dolor mil il illupta sitio berchil landerum fugiam quo int volum etur, invenduciis soluptaecto tem ium am fugitet eium fuga. Arum</p>
     </div>
+    <!-- grid for photos -->
+
     
-    <div class="container" style="padding-bottom: 100px;">
-    <div class="container curation-imgs" style="padding-bottom: -100px;">   <div>
-      <a  href="#"><img src="img/come-together.jpg" style="
-    padding-right: 15px;
-    "/></a>
+          <!-- <div class="container" style="padding-bottom: 100px;">
+          <div class="container curation-imgs" style="padding-bottom: -100px;">   <div>
+            <a  href="#"><img src="img/come-together.jpg" style="
+          padding-right: 15px;
+          "/></a>
+          </div>
+          <div>
+            <a href="#"><img src="img/come-together.jpg" style="
+          padding-right: 15px;
+            " /></a>
+          </div>
+          <div>
+            <a href="#"><img src="img/come-together.jpg" style="
+          padding-right: 15px;
+           "/></a>
+            </div>     
+          </div>
+          <div class="container curation-imgs">   <div>
+            <a  href="#"><img src="img/come-together.jpg" style="
+          padding-right: 15px;
+          "/></a>
+          </div>
+          <div>
+            <a href="#"><img src="img/come-together.jpg" style="
+          padding-right: 15px;
+            " /></a>
+          </div>
+          <div>
+            <a href="#"><img src="img/come-together.jpg" style="
+          padding-right: 15px;
+           "/></a>
+            </div>     
+          </div>
+        </div> -->
+    <!-- card swipe slideshow -->
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+         <div class="swiper-slide"><img src="img/bpf.jpg"></div>
+         <div class="swiper-slide"><img src="img/bpf.jpg"></div>
+          <div class="swiper-slide"><img src="img/bpf.jpg"></div>
+          <div class="swiper-slide"><img src="img/come-together.jpg"></div>
+          <div class="swiper-slide"><img src="img/come-together.jpg"></div>
+           <div class="swiper-slide"><img src="img/come-together.jpg"></div>
+           </div>
+          </div>
+
+  <div style="padding-left: 20%; padding-bottom: 60px;">       
+      <a href="#" class="button" title="Book a Tarot Reading">see more curation</a>
     </div>
-    <div>
-      <a href="#"><img src="img/come-together.jpg" style="
-    padding-right: 15px;
-      " /></a>
-    </div>
-    <div>
-      <a href="#"><img src="img/come-together.jpg" style="
-    padding-right: 15px;
-     "/></a>
-      </div>     
-    </div>
-    <div class="container curation-imgs">   <div>
-      <a  href="#"><img src="img/come-together.jpg" style="
-    padding-right: 15px;
-    "/></a>
-    </div>
-    <div>
-      <a href="#"><img src="img/come-together.jpg" style="
-    padding-right: 15px;
-      " /></a>
-    </div>
-    <div>
-      <a href="#"><img src="img/come-together.jpg" style="
-    padding-right: 15px;
-     "/></a>
-      </div>     
-    </div>
-  </div>
   </div>
 
-  <div class="tarot">
+<!-- --------------TAROT--------------- -->
+  <div class="tarot" id="tarot">
     <div>
     <figure style="margin-top: 0px;">
-      <img src="img/tarot.png" style="width:100%" />
+      <img src="img/tarot.png" alt="main tarot image"style="width:100%" />
       </figure>
     <h1>Tarot readings</h1>
   </div>
@@ -109,7 +128,8 @@
   </div>
   </div>
 
-  <div class="rap">
+<!-- ---------------------RAP------------- -->
+  <div class="rap" id="rap">
     <div class="container">
       <h1>Rap</h1>
       <p>Equam or ur. et; ia deterimmor ublicatil haci istridi ussussu loculicut popublicae ad ideestod Catuid fuideritra, consim derferi ocaet? Et et, silium horum sena, C. Equam ut pes publi etius consulos et; ignondem inatiaed re que et vidio tium facerum conos nost? De pat gratiquid culis, noxim </p>
@@ -145,8 +165,8 @@
     </div>
   </div>
     
-
-    <div>
+<!-- ------------------EDUCATION----------- -->
+    <div class="education" id="education">
       <h1>Education</h1>
       <div>
         <div>
@@ -158,24 +178,56 @@
       </div>
     </div>
 
-    <div>
-      <div class="about-me">
-        <img src="img/yacht-party.jpg" style="width:100%">
-      </div>
+<!-- --------ABOUT ME--------------- -->
+    <div id="about">
+      
       <div>
         <h2>Hi</h2><br>
         <h2>I'm jasmine</h2><br>
         <h2>(Jbambii)</h2>
+        <div class="about-me">
+        <img src="img/yacht-party.jpg" style="width:75%; text-align: center;">
+      </div>
         <p>Ci in dum it; ius. DamEbitis natemquoste quas eos aut lam dero odit qui ut quiam volut faccus et, optat andam aliqui tet, tora il moluptiam, et lautOstrae, pulabemena, sid movita, vica; nos inpror unclarbene consupplint. es! Do, contiam</p>
       </div>
+      
     </div>
-
-
-
-
 </body>
 
-<footer>
+
+<!-- ----------------JAVASCRIPT----------------- -->
+<script>
+/* When the user clicks on the button, 
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(e) {
+  if (!e.target.matches('.dropbtn')) {
+  var myDropdown = document.getElementById("myDropdown");
+    if (myDropdown.classList.contains('show')) {
+      myDropdown.classList.remove('show');
+    }
+  }
+}
+</script>
+
+ <!-- // NEW GALLERY ("virtual slides" - swiperjs.com/demos) ------------------------------------------------------------------------ -->
+     <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+   <script>
+      var swiper = new Swiper(".mySwiper", {
+        effect: "cards",
+        grabCursor: true,
+      });
+    </script>
+
+
+<!-- ---------------FOOTER------------ -->
+<footer id="contacts">
    <div>
       <h2>thank you</h2><br>
       <a href="mailto:jasminebarber18@gmail.com?subject="Freelance Services" target="_blank" class="email-me">jasminebarber18@gmail.com</a>
