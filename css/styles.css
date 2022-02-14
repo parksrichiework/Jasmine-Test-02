@@ -1,0 +1,91 @@
+/* portfolio purple: #6E53A1 */
+/* darker purple: #382B50 */
+/* lighter purple: #D5BFFF */
+
+@media only screen and (max-width: 480px) {
+  body {
+    width: 100%;
+  }
+
+}
+
+
+body {
+  /* font-family: 'Noto Sans Display', sans-serif; */
+  /* font-family: 'Dela Gothic One', cursive; */
+  /* font-family: 'Poller One', cursive; */
+  font-family: Inconsolata, sans-serif;
+  font-size: 15px;
+  color: #382B50;
+}
+
+body, ul {
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, .skillslist {
+  font-family: 'Bakbak One', sans-serif;
+  /* font-family: AerojonesNF, sans-serif; */
+}
+
+.services-about {
+  font-family: 'Noto Sans Display', sans-serif;
+  font-weight: bold;
+}
+
+.skillslist-intro {
+  font-family: Inconsolata, sans-serif;
+}
+
+nav {
+  background-color: #382B50;
+  position: fixed;
+  z-index: 10;
+  width: 100%;
+  display: none;
+
+}
+
+li.empty {
+  width: 50px;
+  border-top: 0.5px solid #D5BFFF;
+  top: -5px;
+  position: relative;
+}
+
+
+nav li a {
+  text-decoration: none;
+  color: #D5BFFF;
+  transition: 0.3 ease-in-out;
+}
+
+nav li a:hover {
+  text-decoration: underline;
+  color: white;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 0 15px;
+  /*refers to 0 top/bottm and 15px left/right */
+  padding: 0;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 14px;
+}
+
+nav ul {
+  margin: 0 auto;
+  text-align: center;
+  padding: 30px;
+}
+
+.curation{
+  background-color: rgb(246, 102, 78);
+}
+
+.curation img{
+  display: inline-block;
+}
