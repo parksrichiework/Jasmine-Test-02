@@ -174,7 +174,7 @@ header{
 
  /*---"Virtual slides" slideshow (swiperjs.com/demos)--*/
 
-/*.swiper {
+.swiper {
         width: 90%;
         margin-top: 25px;
       }
@@ -184,7 +184,7 @@ header{
         border-radius: 10px;
         
         text-align: center;
-      }*/
+      }
 /*-------------------TAROT*/
 .tarot{ 
   background-image: linear-gradient(rgb(165, 60, 145) ,
