@@ -128,12 +128,15 @@ header{
 .curation h1{
   padding-top: 20px;
 }
-.curation img{
-  display: inline-block;
-}
-.curation ul li{
-  display: inline-block;
-}
+
+.curation-imgs {
+  display: flex;
+  
+  }
+ .curation-imgs img{
+  padding-top: 20px;
+  width:  100%;
+ } 
 
 .tarot{ 
   background-image: linear-gradient(rgb(165, 60, 145) ,
