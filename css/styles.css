@@ -49,9 +49,9 @@ h1, h2, .skillslist {
 .nav-bar{
   width: 30px;
   height: 30px;
-  background-color: rgb(58, 119, 120);
+  background-color: rgb(246, 210, 54);
   border-radius: 50%;
-  image: url(../img/ase-no-bg.png);
+  position: fixed;
 }
 
 nav {
@@ -107,6 +107,7 @@ nav {
   background-color: rgb(246, 210, 54);
   min-width: 160px;  
   z-index: 1;
+  border-radius: 10px;
 }
 
 .dropdown-content a {
@@ -173,7 +174,7 @@ header{
 
  /*---"Virtual slides" slideshow (swiperjs.com/demos)--*/
 
-.swiper {
+/*.swiper {
         width: 90%;
         margin-top: 25px;
       }
@@ -183,7 +184,7 @@ header{
         border-radius: 10px;
         
         text-align: center;
-      }
+      }*/
 /*-------------------TAROT*/
 .tarot{ 
   background-image: linear-gradient(rgb(165, 60, 145) ,
