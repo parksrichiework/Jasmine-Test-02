@@ -5,8 +5,12 @@
 /*lighter orange: rgb(251, 194, 183)
 */
 /*main purple: rgb(165, 60, 145)*/
+/*lighter purple: rgb(218, 177, 211)*/
+
 /*darker green: rgb(58, 119, 120)*/
-regular yellow: rgb(246, 210, 54)
+/*regular yellow: rgb(246, 210, 54)*/
+/*lighter green: rgb(150, 192, 142)*/
+
 
 @media only screen and (max-width: 480px) {
   body {
@@ -157,7 +161,29 @@ header{
 
 .rap h1, p{
   text-align: right;
+  padding-right: 30px;
+  padding-left: 30px;
 }
+
+.rap{
+  color: rgb(150, 192, 142);
+  background-color: rgb(58, 119, 120);
+  padding-top: 30px;
+}
+
+.rap-imgs {
+  display: flex;
+  padding-top: 20px;
+  padding-bottom: 100px;
+  }
+ .rap-imgs img{
+  padding-top: 20px;
+  width:  100%;
+ } 
+
+ .rap-imgs div a{
+  padding-left: px;
+ } 
 
 footer {
   text-align: center;
