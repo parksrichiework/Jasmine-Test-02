@@ -153,6 +153,7 @@ header{
 .curation{
   background-color: rgb(246, 102, 78);
   color: rgb(251, 194, 183);
+  height: ;
 }
 
 .curation p{
@@ -310,7 +311,7 @@ footer {
   text-align: center;
   background-color: rgb(58, 119, 120) ;
   margin-bottom: 0px;
-  padding-top: 350px;
+  padding-top: px;
   padding-bottom: 0px;
   color: #fff;
   width: 100%;
