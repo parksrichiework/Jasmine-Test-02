@@ -175,20 +175,23 @@ header{
  /*---"Virtual slides" slideshow (swiperjs.com/demos)--*/
 
 .swiper {
-        width: 90%;
+        width: 225px;
         margin-top: 25px;
+        height: 100%;
       }
       .swiper-slide {
         height: 100%;
         background: transparent;
         border-radius: 10px;
-        
         text-align: center;
+      }
+      .swiper-slide img{
+        width: 100%;
       }
 /*-------------------TAROT*/
 .tarot{ 
   background-image: linear-gradient(rgb(165, 60, 145) ,
- transparent); }
+ white); }
 
 .tarot h1{
   text-align: center;
@@ -247,6 +250,29 @@ header{
  .rap-imgs div a{
   padding-left: px;
  } 
+/*--------EDUCATION--------*/
+
+.education{
+  text-align: center;
+  background-color: rgb(218, 177, 211);
+  margin-top: 0px;
+  height: 800px;
+}
+
+.education h1{
+  margin-top: -15px;
+  padding-top: 30px;
+}
+
+/*------------ABOUT ME--------*/
+
+.about-sec{
+  font-family: 'Noto Sans Display', sans-serif;
+  font-weight: ;
+  text-align: center;
+  background-color: rgb(251, 194, 183);
+  color: rgb(246, 102, 78);
+}
 
 /*----------------FOOTER*/
 footer {
