@@ -1,6 +1,12 @@
 /* portfolio purple: #6E53A1 */
 /* darker purple: #382B50 */
 /* lighter purple: #D5BFFF */
+/*darker orange: rgb(246, 102, 78)*/
+/*lighter orange: rgb(251, 194, 183)
+*/
+/*main purple: rgb(165, 60, 145)*/
+/*darker green: rgb(58, 119, 120)*/
+regular yellow: rgb(246, 210, 54)
 
 @media only screen and (max-width: 480px) {
   body {
@@ -16,7 +22,7 @@ body {
   /* font-family: 'Poller One', cursive; */
   font-family: Inconsolata, sans-serif;
   font-size: 15px;
-  color: #382B50;
+  color: rgb(165, 60, 145);
 }
 
 body, ul {
@@ -31,25 +37,31 @@ h1, h2, .skillslist {
 
 .services-about {
   font-family: 'Noto Sans Display', sans-serif;
-  font-weight: bold;
+  font-weight: ;
 }
 
-.skillslist-intro {
-  font-family: Inconsolata, sans-serif;
+
+.nav-bar{
+  width: 10px;
+  height: 10px;
+  background-color: rgb(58, 119, 120);
+  padding-left: 20px;
+  padding-top: 20px;
 }
 
 nav {
-  background-color: #382B50;
+  background-color: rgb(246, 210, 54);
   position: fixed;
   z-index: 10;
   width: 100%;
   display: none;
+  margin-top: -30px;
 
 }
 
 li.empty {
   width: 50px;
-  border-top: 0.5px solid #D5BFFF;
+  border-top: 0.5px solid rgb(58, 119, 120);
   top: -5px;
   position: relative;
 }
@@ -57,7 +69,7 @@ li.empty {
 
 nav li a {
   text-decoration: none;
-  color: #D5BFFF;
+  color: rgb(58, 119, 120);
   transition: 0.3 ease-in-out;
 }
 
@@ -82,10 +94,107 @@ nav ul {
   padding: 30px;
 }
 
-.curation{
-  background-color: rgb(246, 102, 78);
+header{
+  height: 800px;
+  text-align: center;
+
 }
 
+
+.curation{
+  background-color: rgb(246, 102, 78);
+  color: rgb(251, 194, 183);
+}
+
+.curation p{
+  text-align: left;
+  padding: 20px;
+  padding-bottom: 50px;
+}
+.curation h1{
+  padding-top: 20px;
+}
 .curation img{
   display: inline-block;
 }
+.curation ul li{
+  display: inline-block;
+}
+
+.tarot{ 
+  background-image: linear-gradient(rgb(165, 60, 145) ,
+ transparent); }
+
+.tarot h1{
+  text-align: center;
+}
+
+.tarot img{
+  padding-top: 40px;
+}
+
+.tarot div a{
+  text-align: center;
+}
+
+ .button {
+  background-color: rgb(165, 60, 145);
+  border: 1px solid rgb(165, 60, 145);
+  text-decoration: none;
+  color: #fff;
+  margin-top: 30px;
+  display: inline-block;
+  border-radius: 20px;
+  padding: 10px 30px;
+  transition: background 0.5s ease-in-out;
+  color: background 0.5s ease-in-out;
+}
+
+.button:hover {
+  background: #ffffff;
+  color: white;
+}
+
+.rap h1, p{
+  text-align: right;
+}
+
+footer {
+  text-align: center;
+  margin-top: 100px;
+  background-color: rgb(58, 119, 120) ;
+  margin-bottom: 0px;
+  padding-top: 60px;
+  padding-bottom: 0px;
+  color: #fff;
+  width: 100%;
+  height: 300px;
+}
+
+footer h2 {
+  font-size: 15px;
+  margin-bottom: 0px;
+  width: 100%;
+}
+footer p{
+  padding-top: 100px;
+}
+
+.right-alignment {
+  text-align: right;
+}
+
+a.email-me {
+  text-decoration: underline;
+  color: #fff;
+  transition: 0.3 ease-in-out;
+  font-size: 25px;
+  
+}
+
+a.email-me:hover {
+  text-decoration: none;
+  color: #000;
+  background-color: none;
+}
+
