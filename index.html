@@ -45,8 +45,12 @@
   <source src="img/video-test.mp4" type="video/mp4">
 </video>
 
-  <h1>welcome</h1>
+  
+
+  
+  <h1 id="myImg" class="greeting">welcome</h1>
   </header>
+
 
   
 
@@ -193,6 +197,7 @@
         <p>Ci in dum it; ius. DamEbitis natemquoste quas eos aut lam dero odit qui ut quiam volut faccus et, optat andam aliqui tet, tora il moluptiam, et lautOstrae, pulabemena, sid movita, vica; nos inpror unclarbene consupplint. es! Do, contiam</p>
       </div>
       
+
     </div>
 </body>
 
@@ -214,6 +219,13 @@ window.onclick = function(e) {
     }
   }
 }
+    window.onscroll = function() {myFunction()};
+
+        function myFunction() {
+          if (document.body.scrollTop > 350 || document.documentElement.scrollTop > 350) {
+            document.getElementById("myImg").className = "slideUp";
+          }
+        }
 </script>
 
  <!-- // NEW GALLERY ("virtual slides" - swiperjs.com/demos) ------------------------------------------------------------------------ -->
@@ -227,16 +239,22 @@ window.onclick = function(e) {
       });
     </script>
 
+    <script>
+    
+    </script>
+
+
+
 
 <!-- ---------------FOOTER------------ -->
 <footer id="contacts">
-   <div>
+   <div style="padding-top: 300px;">
       <h2>thank you</h2><br>
       <a href="mailto:jasminebarber18@gmail.com?subject="Freelance Services" target="_blank" class="email-me">jasminebarber18@gmail.com</a>
       </h2>
 
     </div>
-    <p class="services-about"> <img src="img/logo-2021.png" style="width:15px; height: 15px;"> © 2022 parksrichiework</p>
+    <p class="copyright"> <img src="img/logo-2021.png" style="width:15px; height: 15px;"> © 2022 parksrichiework</p>
 
 </footer>
 </html>

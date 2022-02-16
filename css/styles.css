@@ -50,7 +50,7 @@ h1, h2, .skillslist {
 .nav-bar{
   width: 30px;
   height: 30px;
-  background-color: rgb(246, 210, 54);
+  background-color: rgb(246, 205, 0);
   border-radius: 50%;
   position: fixed;
 }
@@ -99,13 +99,13 @@ nav {
 }
 
 .navbar a:hover, .dropdown:hover .dropbtn, .dropbtn:focus {
-  background-color: rgb(246, 210, 54) ;
+  background-color: rgb(246, 205, 0) ;
 }
 
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: rgb(246, 210, 54);
+  background-color: rgb(246, 205, 0);
   min-width: 160px;  
   z-index: 1;
   border-radius: 10px;
@@ -130,13 +130,18 @@ nav {
 
 /*------------------NAV DROP end*/
 
-
+/*------------HEADER*/
 
 header{
   height: 800px;
   text-align: center;
   font-size: 35px;
+  
+}
 
+.greeting{
+  visibility: hidden;
+  padding-top: px;
 }
 
 #myVideo {
@@ -323,6 +328,7 @@ footer h2 {
   font-size: 15px;
   margin-bottom: 0px;
   width: 100%;
+  margin-top: 0px;
 }
 footer p{
   padding-top: 100px;
@@ -344,6 +350,45 @@ a.email-me:hover {
   text-decoration: none;
   color: #000;
   background-color: none;
+}
+
+.copyright {
+  font-family: 'Noto Sans Display', sans-serif;
+  font-weight: ;
+  text-align: center;
+  padding-top: 200px;
+}
+
+/*--------------- scroll event-------*/
+.slideUp {
+  animation-name: slideUp;
+  -webkit-animation-name: slideUp;
+  animation-duration: 1s;
+  -webkit-animation-duration: 1s;
+  visibility: visible;
+  padding-top: 600px;
+}
+
+@keyframes slideUp {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(70%);
+  } 
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0%);
+  }
+}
+
+@-webkit-keyframes slideUp {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(70%);
+  } 
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0%);
+  }
 }
 
 
