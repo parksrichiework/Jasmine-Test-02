@@ -219,13 +219,7 @@ window.onclick = function(e) {
     }
   }
 };
-window.onscroll = function() {theFunction()};
 
-        function theFunction() {
-          if (document.body.scrollTop > 350 || document.docElement.scrollTop > 350) {
-            document.getElementById("myImg").className = "slideUp";
-          }
-        };
     
 </script>
 
@@ -243,7 +237,13 @@ window.onscroll = function() {theFunction()};
     </script>
 
     <script>
-    
+    window.onscroll = function() {theFunction()};
+
+        function theFunction() {
+          if (document.body.scrollTop > 350 || document.documentElement.scrollTop > 350) {
+            document.getElementById("myImg").className = "slideUp";
+          }
+        };
     </script>
 
 
