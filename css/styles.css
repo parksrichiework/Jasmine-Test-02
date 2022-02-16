@@ -366,7 +366,7 @@ a.email-me:hover {
   animation-duration: 1s;
   -webkit-animation-duration: 1s;
   visibility: visible;
-  padding-top: 600px;
+  padding-top: 500px;
 }
 
 @keyframes slideUp {
@@ -380,16 +380,6 @@ a.email-me:hover {
   }
 }
 
-@-webkit-keyframes slideUp {
-  0% {
-    opacity: 0;
-    -webkit-transform: translateY(70%);
-  } 
-  100% {
-    opacity: 1;
-    -webkit-transform: translateY(0%);
-  }
-}
 
 
 
